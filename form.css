@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(Tiger.jpg) no-repeat fixed;
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+label {
+    margin-left: 30px;
+    font-size: x-large;
+    letter-spacing: 2px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+legend{
+    font-size: x-large;
+}
+
+#hdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 40%;
+    min-width: 400px;
+    margin-left: 2%;
+    margin-bottom: 50px;
+    padding: 10px;
+    background: linear-gradient(45deg, black, #00394F);
+    opacity: 0.9;
+}
+
+
+
+#formdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 50px 10px;
+    width: 40%;
+    min-width: 400px;
+    height: 80%;
+    margin-left: 2%;
+    background: linear-gradient(45deg, #00394F, black);
+    opacity: 0.9;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.field {
+    padding: 10px 8px;
+    margin: 10px 30px 50px 30px;
+    font-size: x-large;
+    color: #00394F;
+    border-radius: 5px;
+}
+
+#number {
+    padding: 10px 8px;
+    margin: 10px 30px 50px 30px;
+    font-size: x-large;
+    color: #00394F;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#dropdown {
+    padding: 10px 8px;
+    margin: 10px 30px 50px 30px;
+    font-size: x-large;
+    color: #00394F;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#radiodiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    width: 95%;
+    margin: auto;
+}
+
+#chkboxtitl {
+    margin-left: 4%;
+}
+
+#textareadiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#comments {
+    margin: 0 50px;
+    font-size: x-large;
+    color: #00394F;
+}
+
+#labelcomments {
+    margin-left: 50px;
+}
+
+#submit {
+    margin: auto;
+    margin-top: 50px;
+    height: 50px;
+    width: 80%;
+    font-size: x-large;
+    background-color: #2D6673;
+    color: lightgray;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#submit:hover {
+    background-color: #2B9CFF;
+    color: #00394F;
+}
